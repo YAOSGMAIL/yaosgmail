@@ -1,0 +1,6 @@
+{
+  "name": "YAO SGMAIL",
+  "description": "Platform modern pengelolaan setoran Gmail, saldo ledger, withdrawal otomatis dengan fee dinamis, dan dashboard admin komprehensif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

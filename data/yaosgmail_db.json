@@ -1,0 +1,1036 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_b0623dc2",
+      "email": "admin@yaosgmail.com",
+      "role": "user",
+      "active": true,
+      "created_at": "2026-08-25T13:06:43.769Z",
+      "last_login_at": "2026-08-25T13:13:40.446Z"
+    },
+    {
+      "id": "usr_08182a2f-d3fe-400d-80e7-d87c3ea2eb8a",
+      "email": "worker_yao@example.com",
+      "role": "user",
+      "active": true,
+      "created_at": "2026-08-25T13:12:29.183Z",
+      "last_login_at": "2026-08-25T13:12:29.183Z"
+    },
+    {
+      "id": "usr_2da07420-7db3-4d3c-96c2-14ca84d057d0",
+      "email": "worker_yao_2@example.com",
+      "role": "user",
+      "active": true,
+      "created_at": "2026-08-25T13:12:37.122Z",
+      "last_login_at": "2026-08-25T13:12:37.122Z"
+    },
+    {
+      "id": "usr_f63d11df-0b26-4cec-b434-186b77223054",
+      "email": "worker_yao_3@example.com",
+      "role": "user",
+      "active": true,
+      "created_at": "2026-08-25T13:13:03.601Z",
+      "last_login_at": "2026-08-25T13:13:03.601Z"
+    },
+    {
+      "id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "email": "worker_yao_4@example.com",
+      "role": "user",
+      "active": true,
+      "created_at": "2026-08-25T13:13:32.048Z",
+      "last_login_at": "2026-08-25T13:13:32.048Z"
+    },
+    {
+      "id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "email": "worker_yao_master@example.com",
+      "role": "user",
+      "active": true,
+      "created_at": "2026-08-25T13:13:40.332Z",
+      "last_login_at": "2026-08-25T13:13:40.332Z"
+    },
+    {
+      "id": "usr_admin_ea189c8d",
+      "email": "superadmin@yaos.internal",
+      "role": "user",
+      "active": true,
+      "created_at": "2026-08-25T13:29:25.235Z",
+      "last_login_at": null
+    },
+    {
+      "id": "usr_177555ad-7ebb-43b1-ae4d-98d110292660",
+      "email": "testtester@gmail.com",
+      "role": "user",
+      "active": true,
+      "created_at": "2026-08-25T13:29:31.644Z",
+      "last_login_at": "2026-08-25T13:29:31.644Z"
+    },
+    {
+      "id": "usr_661f84d7-acb8-4827-b3aa-d8c0311b96bc",
+      "email": "attacker@gmail.com",
+      "role": "user",
+      "active": true,
+      "created_at": "2026-08-25T13:29:35.286Z",
+      "last_login_at": "2026-08-25T13:29:35.286Z"
+    },
+    {
+      "id": "usr_admin_yao",
+      "email": "yao.admin@system.internal",
+      "role": "admin",
+      "active": true,
+      "created_at": "2026-08-25T13:37:51.499Z",
+      "last_login_at": "2026-08-25T13:38:15.147Z"
+    },
+    {
+      "id": "usr_68492ee2-2ac0-4e2e-a734-ccb43041d335",
+      "email": "admin_2632@test.com",
+      "role": "user",
+      "active": true,
+      "created_at": "2026-08-25T13:38:15.276Z",
+      "last_login_at": "2026-08-25T13:38:15.276Z"
+    }
+  ],
+  "profiles": [
+    {
+      "user_id": "usr_admin_b0623dc2",
+      "username": "Admin YAO",
+      "referral_code": "YAOADMIN",
+      "referrer_id": null,
+      "available_balance": 0,
+      "reserved_balance": 0,
+      "total_deposited_approved": 0,
+      "total_withdrawn_approved": 0
+    },
+    {
+      "user_id": "usr_08182a2f-d3fe-400d-80e7-d87c3ea2eb8a",
+      "username": "worker_yao",
+      "referral_code": "YAOCA5D9A",
+      "referrer_id": null,
+      "available_balance": 0,
+      "reserved_balance": 0,
+      "total_deposited_approved": 0,
+      "total_withdrawn_approved": 0
+    },
+    {
+      "user_id": "usr_2da07420-7db3-4d3c-96c2-14ca84d057d0",
+      "username": "worker_yao_2",
+      "referral_code": "YAO4D9721",
+      "referrer_id": null,
+      "available_balance": 0,
+      "reserved_balance": 0,
+      "total_deposited_approved": 0,
+      "total_withdrawn_approved": 0
+    },
+    {
+      "user_id": "usr_f63d11df-0b26-4cec-b434-186b77223054",
+      "username": "worker_yao_3",
+      "referral_code": "YAO0FF024",
+      "referrer_id": null,
+      "available_balance": 12900,
+      "reserved_balance": 0,
+      "total_deposited_approved": 12900,
+      "total_withdrawn_approved": 0
+    },
+    {
+      "user_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "username": "worker_yao_4",
+      "referral_code": "YAOB563FD",
+      "referrer_id": null,
+      "available_balance": 12900,
+      "reserved_balance": 50000,
+      "total_deposited_approved": 12900,
+      "total_withdrawn_approved": 0,
+      "payment_method_default": "DANA",
+      "payment_account_default": "081234567890 (a.n Worker)"
+    },
+    {
+      "user_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "username": "worker_yao_master",
+      "referral_code": "YAOD26E1D",
+      "referrer_id": null,
+      "available_balance": 12900,
+      "reserved_balance": 0,
+      "total_deposited_approved": 12900,
+      "total_withdrawn_approved": 42500,
+      "payment_method_default": "DANA",
+      "payment_account_default": "081234567890 (a.n Worker Master)"
+    },
+    {
+      "user_id": "usr_admin_ea189c8d",
+      "username": "superadmin",
+      "referral_code": "SYSADMIN",
+      "referrer_id": null,
+      "available_balance": 0,
+      "reserved_balance": 0,
+      "total_deposited_approved": 0,
+      "total_withdrawn_approved": 0
+    },
+    {
+      "user_id": "usr_177555ad-7ebb-43b1-ae4d-98d110292660",
+      "username": "testtester",
+      "referral_code": "YAO0846F7",
+      "referrer_id": null,
+      "available_balance": 0,
+      "reserved_balance": 0,
+      "total_deposited_approved": 0,
+      "total_withdrawn_approved": 0
+    },
+    {
+      "user_id": "usr_661f84d7-acb8-4827-b3aa-d8c0311b96bc",
+      "username": "attacker",
+      "referral_code": "YAODD4042",
+      "referrer_id": null,
+      "available_balance": 0,
+      "reserved_balance": 0,
+      "total_deposited_approved": 0,
+      "total_withdrawn_approved": 0
+    },
+    {
+      "user_id": "usr_admin_yao",
+      "username": "YAO",
+      "referral_code": "YAOADMIN",
+      "referrer_id": null,
+      "available_balance": 0,
+      "reserved_balance": 0,
+      "total_deposited_approved": 0,
+      "total_withdrawn_approved": 0
+    },
+    {
+      "user_id": "usr_68492ee2-2ac0-4e2e-a734-ccb43041d335",
+      "username": "admin_2632",
+      "referral_code": "YAO33A92D",
+      "referrer_id": null,
+      "available_balance": 0,
+      "reserved_balance": 0,
+      "total_deposited_approved": 0,
+      "total_withdrawn_approved": 0
+    }
+  ],
+  "user_passwords": [
+    {
+      "user_id": "usr_admin_b0623dc2",
+      "password_hash": "$2b$10$7qZm29Jy.4aCfLsODNyX9uU8g6cjRxxlRFXwf/QeYrYQ4FXciPNhO"
+    },
+    {
+      "user_id": "usr_08182a2f-d3fe-400d-80e7-d87c3ea2eb8a",
+      "password_hash": "$2b$10$ioukd4.d/iKMMMHQ4GAiTeUPQ8uWiitDw5d6trBXYE07nDGL2xp26"
+    },
+    {
+      "user_id": "usr_2da07420-7db3-4d3c-96c2-14ca84d057d0",
+      "password_hash": "$2b$10$rIOkztAjVAZnosTGTIGczud8pIMKJMvmWqKufEpZ.QNCsXig1dV62"
+    },
+    {
+      "user_id": "usr_f63d11df-0b26-4cec-b434-186b77223054",
+      "password_hash": "$2b$10$5dYohmu64niBw8F71BY6Huk8HcOC2IiSdhirKomdgM5dRXFYg076."
+    },
+    {
+      "user_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "password_hash": "$2b$10$bkpIjBmKYuT2BUDXmvbtB.MHLXxa3sGsrcBXt6so/CRgIKJgfWH5q"
+    },
+    {
+      "user_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "password_hash": "$2b$10$SaFPpWj7YcCyKKDhvQfSme.x4Cr/VOwj.Rlviw6K.quz5ZQtfkjr."
+    },
+    {
+      "user_id": "usr_admin_ea189c8d",
+      "password_hash": "$2b$10$nmdlywfR0/FOqDDpDPDl2eeFnyFZoVp8cVA6gZxSOEynT/opVftqO"
+    },
+    {
+      "user_id": "usr_177555ad-7ebb-43b1-ae4d-98d110292660",
+      "password_hash": "$2b$10$4lFD/3NUu2BinwVGA7d1A.4397VNZsRUwdRFVtyd1mElH7WtmpP2y"
+    },
+    {
+      "user_id": "usr_661f84d7-acb8-4827-b3aa-d8c0311b96bc",
+      "password_hash": "$2b$10$Gv/D0D4ZmedNwRttsk1YUehVISSO9foqpexnwqEdDZrwJ.FQxOKA."
+    },
+    {
+      "user_id": "usr_admin_yao",
+      "password_hash": "$2b$10$mDcielydClZHVq4QkgoF7uhZg0exKqsId7w/10rQa85Z6JhDi8116"
+    },
+    {
+      "user_id": "usr_68492ee2-2ac0-4e2e-a734-ccb43041d335",
+      "password_hash": "$2b$10$6QmROEb3Pv9ods08Xro.VekEgPfuWCvjxVffOeg.pNTb4ooinUi9q"
+    }
+  ],
+  "deposits": [
+    {
+      "id": "dep_e51fcb79-2c88-4233-91bb-5ddf07d485e6",
+      "user_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "gmail": "master3.yao@gmail.com",
+      "amount": 4300,
+      "status": "APPROVED",
+      "reject_reason": null,
+      "created_at": "2026-08-25T13:13:40.348Z",
+      "reviewed_at": "2026-08-25T13:13:40.467Z",
+      "reviewed_by": "usr_admin_b0623dc2"
+    },
+    {
+      "id": "dep_af774460-fcd0-4c0b-9be6-2db6ac22a633",
+      "user_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "gmail": "master2.yao@gmail.com",
+      "amount": 4300,
+      "status": "APPROVED",
+      "reject_reason": null,
+      "created_at": "2026-08-25T13:13:40.348Z",
+      "reviewed_at": "2026-08-25T13:13:40.459Z",
+      "reviewed_by": "usr_admin_b0623dc2"
+    },
+    {
+      "id": "dep_517183ac-440d-4aa7-9e5b-5c24fe0eb6a1",
+      "user_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "gmail": "master1.yao@gmail.com",
+      "amount": 4300,
+      "status": "APPROVED",
+      "reject_reason": null,
+      "created_at": "2026-08-25T13:13:40.348Z",
+      "reviewed_at": "2026-08-25T13:13:40.454Z",
+      "reviewed_by": "usr_admin_b0623dc2"
+    },
+    {
+      "id": "dep_835974ac-9536-4e92-a721-64bbbe720586",
+      "user_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "gmail": "worker43.yao@gmail.com",
+      "amount": 4300,
+      "status": "APPROVED",
+      "reject_reason": null,
+      "created_at": "2026-08-25T13:13:32.071Z",
+      "reviewed_at": "2026-08-25T13:13:32.202Z",
+      "reviewed_by": "usr_admin_b0623dc2"
+    },
+    {
+      "id": "dep_490c2552-72c6-406e-a6e2-d1b15e1912d5",
+      "user_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "gmail": "worker42.yao@gmail.com",
+      "amount": 4300,
+      "status": "APPROVED",
+      "reject_reason": null,
+      "created_at": "2026-08-25T13:13:32.071Z",
+      "reviewed_at": "2026-08-25T13:13:32.195Z",
+      "reviewed_by": "usr_admin_b0623dc2"
+    },
+    {
+      "id": "dep_43b77dc9-742e-4e31-b2cf-8763b2cc1fd4",
+      "user_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "gmail": "worker41.yao@gmail.com",
+      "amount": 4300,
+      "status": "APPROVED",
+      "reject_reason": null,
+      "created_at": "2026-08-25T13:13:32.071Z",
+      "reviewed_at": "2026-08-25T13:13:32.190Z",
+      "reviewed_by": "usr_admin_b0623dc2"
+    },
+    {
+      "id": "dep_aeaa7770-60a5-48fb-8580-21406aa5e1f5",
+      "user_id": "usr_f63d11df-0b26-4cec-b434-186b77223054",
+      "gmail": "worker33.yao@gmail.com",
+      "amount": 4300,
+      "status": "APPROVED",
+      "reject_reason": null,
+      "created_at": "2026-08-25T13:13:03.624Z",
+      "reviewed_at": "2026-08-25T13:13:03.766Z",
+      "reviewed_by": "usr_admin_b0623dc2"
+    },
+    {
+      "id": "dep_432f0252-b186-40f2-9767-c64a83ccd467",
+      "user_id": "usr_f63d11df-0b26-4cec-b434-186b77223054",
+      "gmail": "worker32.yao@gmail.com",
+      "amount": 4300,
+      "status": "APPROVED",
+      "reject_reason": null,
+      "created_at": "2026-08-25T13:13:03.624Z",
+      "reviewed_at": "2026-08-25T13:13:03.760Z",
+      "reviewed_by": "usr_admin_b0623dc2"
+    },
+    {
+      "id": "dep_654d767c-d305-468a-a5ec-4f30eba96efd",
+      "user_id": "usr_f63d11df-0b26-4cec-b434-186b77223054",
+      "gmail": "worker31.yao@gmail.com",
+      "amount": 4300,
+      "status": "APPROVED",
+      "reject_reason": null,
+      "created_at": "2026-08-25T13:13:03.624Z",
+      "reviewed_at": "2026-08-25T13:13:03.752Z",
+      "reviewed_by": "usr_admin_b0623dc2"
+    },
+    {
+      "id": "dep_d63c4747-d010-4f16-b9a6-6fd891edf7cc",
+      "user_id": "usr_2da07420-7db3-4d3c-96c2-14ca84d057d0",
+      "gmail": "worker23.yao@gmail.com",
+      "amount": 4300,
+      "status": "PENDING",
+      "reject_reason": null,
+      "created_at": "2026-08-25T13:12:37.142Z",
+      "reviewed_at": null,
+      "reviewed_by": null
+    },
+    {
+      "id": "dep_60570bf6-7784-4e4f-8156-a548d54f2e38",
+      "user_id": "usr_2da07420-7db3-4d3c-96c2-14ca84d057d0",
+      "gmail": "worker22.yao@gmail.com",
+      "amount": 4300,
+      "status": "PENDING",
+      "reject_reason": null,
+      "created_at": "2026-08-25T13:12:37.142Z",
+      "reviewed_at": null,
+      "reviewed_by": null
+    },
+    {
+      "id": "dep_9639e78a-79c1-4790-ab8a-3ed8db8c9ab7",
+      "user_id": "usr_2da07420-7db3-4d3c-96c2-14ca84d057d0",
+      "gmail": "worker21.yao@gmail.com",
+      "amount": 4300,
+      "status": "PENDING",
+      "reject_reason": null,
+      "created_at": "2026-08-25T13:12:37.142Z",
+      "reviewed_at": null,
+      "reviewed_by": null
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "wd_345179f2-43bb-4f22-ad60-0544cbcf89bb",
+      "user_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "gross_amount": 50000,
+      "fee_type": "percentage",
+      "fee_rate": 15,
+      "fee_amount": 7500,
+      "net_amount": 42500,
+      "payment_method": "DANA",
+      "payment_account": "081234567890 (a.n Worker Master)",
+      "status": "APPROVED",
+      "reject_reason": null,
+      "created_at": "2026-08-25T13:13:40.483Z",
+      "processed_at": "2026-08-25T13:13:40.491Z",
+      "processed_by": "usr_admin_b0623dc2"
+    },
+    {
+      "id": "wd_d89727d3-4a61-4f4b-96b2-165c6e75a0e9",
+      "user_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "gross_amount": 50000,
+      "fee_type": "percentage",
+      "fee_rate": 15,
+      "fee_amount": 7500,
+      "net_amount": 42500,
+      "payment_method": "DANA",
+      "payment_account": "081234567890 (a.n Worker)",
+      "status": "PENDING",
+      "reject_reason": null,
+      "created_at": "2026-08-25T13:13:32.224Z",
+      "processed_at": null,
+      "processed_by": null
+    }
+  ],
+  "balance_transactions": [
+    {
+      "id": "tx_f21ed423-85e6-4ea5-b1f7-6a44723122f5",
+      "user_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "type": "WITHDRAWAL_SETTLE",
+      "amount": 0,
+      "balance_after": 12900,
+      "reference_id": "wd_345179f2-43bb-4f22-ad60-0544cbcf89bb",
+      "description": "Withdrawal berhasil dicairkan: DANA - 081234567890 (a.n Worker Master) (Net Rp42.500)",
+      "created_at": "2026-08-25T13:13:40.492Z"
+    },
+    {
+      "id": "tx_29582d1e-a5b8-417a-93e3-4d88c27e0b1e",
+      "user_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "type": "WITHDRAWAL_RESERVE",
+      "amount": -50000,
+      "balance_after": 12900,
+      "reference_id": "wd_345179f2-43bb-4f22-ad60-0544cbcf89bb",
+      "description": "Pengajuan WD: DANA - 081234567890 (a.n Worker Master) (Fee 15%: Rp7.500)",
+      "created_at": "2026-08-25T13:13:40.483Z"
+    },
+    {
+      "id": "tx_9d81f231-2388-4fbf-9ad4-6df3332ac1c8",
+      "user_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "type": "ADMIN_ADJUSTMENT",
+      "amount": 50000,
+      "balance_after": 62900,
+      "reference_id": null,
+      "description": "Testing min WD bonus",
+      "created_at": "2026-08-25T13:13:40.477Z"
+    },
+    {
+      "id": "tx_004ec5b6-2e85-4498-9355-5107b9852cae",
+      "user_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "type": "DEPOSIT_CREDIT",
+      "amount": 4300,
+      "balance_after": 12900,
+      "reference_id": "dep_e51fcb79-2c88-4233-91bb-5ddf07d485e6",
+      "description": "Setoran Gmail disetujui: master3.yao@gmail.com",
+      "created_at": "2026-08-25T13:13:40.467Z"
+    },
+    {
+      "id": "tx_91e709df-f599-49e2-8b31-f374667c3c8e",
+      "user_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "type": "DEPOSIT_CREDIT",
+      "amount": 4300,
+      "balance_after": 8600,
+      "reference_id": "dep_af774460-fcd0-4c0b-9be6-2db6ac22a633",
+      "description": "Setoran Gmail disetujui: master2.yao@gmail.com",
+      "created_at": "2026-08-25T13:13:40.459Z"
+    },
+    {
+      "id": "tx_0d87d190-fddf-4dd1-863f-a20583b6565f",
+      "user_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "type": "DEPOSIT_CREDIT",
+      "amount": 4300,
+      "balance_after": 4300,
+      "reference_id": "dep_517183ac-440d-4aa7-9e5b-5c24fe0eb6a1",
+      "description": "Setoran Gmail disetujui: master1.yao@gmail.com",
+      "created_at": "2026-08-25T13:13:40.454Z"
+    },
+    {
+      "id": "tx_45dfea11-e891-4070-825e-f7fc4ce17977",
+      "user_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "type": "WITHDRAWAL_RESERVE",
+      "amount": -50000,
+      "balance_after": 12900,
+      "reference_id": "wd_d89727d3-4a61-4f4b-96b2-165c6e75a0e9",
+      "description": "Pengajuan WD: DANA - 081234567890 (a.n Worker) (Fee 15%: Rp7.500)",
+      "created_at": "2026-08-25T13:13:32.224Z"
+    },
+    {
+      "id": "tx_8d2c3b60-913a-4093-81d3-0e9e11ec05ce",
+      "user_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "type": "ADMIN_ADJUSTMENT",
+      "amount": 50000,
+      "balance_after": 62900,
+      "reference_id": null,
+      "description": "Testing min WD bonus",
+      "created_at": "2026-08-25T13:13:32.216Z"
+    },
+    {
+      "id": "tx_a4fbb244-f044-4b02-9de9-3d1b284943f7",
+      "user_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "type": "DEPOSIT_CREDIT",
+      "amount": 4300,
+      "balance_after": 12900,
+      "reference_id": "dep_835974ac-9536-4e92-a721-64bbbe720586",
+      "description": "Setoran Gmail disetujui: worker43.yao@gmail.com",
+      "created_at": "2026-08-25T13:13:32.202Z"
+    },
+    {
+      "id": "tx_d3c5a11b-a376-49f4-a16f-85ab8fcbdcd5",
+      "user_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "type": "DEPOSIT_CREDIT",
+      "amount": 4300,
+      "balance_after": 8600,
+      "reference_id": "dep_490c2552-72c6-406e-a6e2-d1b15e1912d5",
+      "description": "Setoran Gmail disetujui: worker42.yao@gmail.com",
+      "created_at": "2026-08-25T13:13:32.195Z"
+    },
+    {
+      "id": "tx_e262fd86-1abb-4a23-b8b0-9a263afb2174",
+      "user_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "type": "DEPOSIT_CREDIT",
+      "amount": 4300,
+      "balance_after": 4300,
+      "reference_id": "dep_43b77dc9-742e-4e31-b2cf-8763b2cc1fd4",
+      "description": "Setoran Gmail disetujui: worker41.yao@gmail.com",
+      "created_at": "2026-08-25T13:13:32.190Z"
+    },
+    {
+      "id": "tx_9779a77e-e073-4a04-bd79-0bef552c1ab3",
+      "user_id": "usr_f63d11df-0b26-4cec-b434-186b77223054",
+      "type": "DEPOSIT_CREDIT",
+      "amount": 4300,
+      "balance_after": 12900,
+      "reference_id": "dep_aeaa7770-60a5-48fb-8580-21406aa5e1f5",
+      "description": "Setoran Gmail disetujui: worker33.yao@gmail.com",
+      "created_at": "2026-08-25T13:13:03.766Z"
+    },
+    {
+      "id": "tx_1c07edc9-8e61-4dbd-9e28-e18294d36857",
+      "user_id": "usr_f63d11df-0b26-4cec-b434-186b77223054",
+      "type": "DEPOSIT_CREDIT",
+      "amount": 4300,
+      "balance_after": 8600,
+      "reference_id": "dep_432f0252-b186-40f2-9767-c64a83ccd467",
+      "description": "Setoran Gmail disetujui: worker32.yao@gmail.com",
+      "created_at": "2026-08-25T13:13:03.760Z"
+    },
+    {
+      "id": "tx_a38bddac-058a-45dc-a4f1-f6ff65c07cbd",
+      "user_id": "usr_f63d11df-0b26-4cec-b434-186b77223054",
+      "type": "DEPOSIT_CREDIT",
+      "amount": 4300,
+      "balance_after": 4300,
+      "reference_id": "dep_654d767c-d305-468a-a5ec-4f30eba96efd",
+      "description": "Setoran Gmail disetujui: worker31.yao@gmail.com",
+      "created_at": "2026-08-25T13:13:03.752Z"
+    }
+  ],
+  "settings": {
+    "site_name": "YAO SGMAIL",
+    "gmail_rate": 4300,
+    "daily_limit": 30,
+    "minimum_withdrawal": 50000,
+    "minimum_approved_gmail_for_withdrawal": 2,
+    "withdrawal_fee_type": "percentage",
+    "withdrawal_fee_min": 12,
+    "withdrawal_fee_max": 35,
+    "withdrawal_fee_current": 15,
+    "deposit_status": "OPEN",
+    "withdrawal_status": "OPEN",
+    "referral_status": "OPEN",
+    "referral_reward": 500,
+    "room_status": "OPEN",
+    "announcement": "🔥 Selamat datang di YAO SGMAIL! Setor akun Gmail Anda dengan rate tertinggi dan pencairan dana super cepat.",
+    "security_warning": "⚠️ PENTING: Jangan pernah memasukkan password Gmail, OTP, nomor HP, atau data pemulihan. Cukup cantumkan alamat email Gmail saja.",
+    "updated_at": "2026-08-25T13:06:43.664Z"
+  },
+  "rules": {
+    "deposit_rules": "### RULES SETORAN GMAIL\n1. **Format Akun**: Hanya menerima format email valid berakhiran **@gmail.com**.\n2. **Kualitas Akun**: Akun Gmail wajib masih aktif dan belum pernah terdaftar sebelumnya di sistem.\n3. **Anti Duplikasi**: Akun yang sudah pernah disubmit atau disetujui otomatis ditolak sistem.\n4. **Waktu Review**: Setoran diperiksa dan divalidasi oleh tim admin secara berkala (rata-rata 5-30 menit).\n5. **Rate Setoran**: Rate yang didapatkan mengacu pada rate saat form setoran disubmit.\n6. **Batas Harian**: Pengguna dapat menyetor hingga limit harian yang ditentukan oleh sistem.",
+    "withdrawal_rules": "### RULES PENCAIRAN DANA (WITHDRAWAL)\n1. **Minimum Penarikan**: Penarikan saldo minimum adalah Rp50.000 (dapat disesuaikan admin).\n2. **Syarat Akun Approved**: Pengguna wajib memiliki minimal 2 Gmail dengan status APPROVED sebelum mengajukan WD.\n3. **Biaya Admin (Fee)**: Biaya penarikan dihitung otomatis dan transparan sesuai persentase yang berlaku saat pengajuan.\n4. **Metode Pembayaran**: Mendukung e-Wallet (DANA, GoPay, OVO, ShopeePay) dan Transfer Bank (BCA, BRI, Mandiri, BNI).\n5. **Keabsahan Nomor**: Pastikan nomor e-Wallet atau nomor rekening dan nama pemilik sudah benar. Kesalahan input menjadi tanggung jawab pengguna.\n6. **Waktu Proses**: Permintaan WD diproses admin dalam waktu 1x24 jam kerja.",
+    "referral_rules": "### RULES PROGRAM REFERRAL\n1. Bagikan kode atau link referral unik Anda kepada teman atau rekan kerja.\n2. Dapatkan bonus komisi saldo untuk setiap transaksi yang valid sesuai program aktif.\n3. Dilarang melakukan spamming massal atau kecurangan registrasi mandiri. Akun yang terindikasi kecurangan akan dinonaktifkan permanen.",
+    "security_rules": "### KEBIJAKAN KEAMANAN DATA\n1. YAO SGMAIL tidak pernah meminta password Gmail, kode autentikasi 2FA, SMS OTP, atau data pribadi lainnya.\n2. Seluruh transaksi saldo dicatat secara transparan dalam balance ledger permanen.\n3. Hubungi Admin resmi jika menemukan kendala teknis atau pertanyaan seputar akun.",
+    "updated_at": "2026-08-25T13:06:43.665Z"
+  },
+  "activity_logs": [
+    {
+      "id": "log_39bcebf8-6fa7-42a5-b8ee-9cc0dbeed1eb",
+      "actor_id": "usr_68492ee2-2ac0-4e2e-a734-ccb43041d335",
+      "actor_role": "user",
+      "actor_name": "admin_2632",
+      "action": "USER_REGISTER",
+      "description": "User terdaftar: admin_2632 (admin_2632@test.com)",
+      "metadata": {
+        "referrer_id": null
+      },
+      "created_at": "2026-08-25T13:38:15.276Z"
+    },
+    {
+      "id": "log_c697462c-902f-4232-8904-f97b30600434",
+      "actor_id": "usr_admin_yao",
+      "actor_role": "admin",
+      "actor_name": "YAO",
+      "action": "USER_LOGIN",
+      "description": "Login berhasil: YAO (yao.admin@system.internal)",
+      "created_at": "2026-08-25T13:38:15.148Z"
+    },
+    {
+      "id": "log_4512cc6c-cc89-4676-aa6a-49988ee04c7d",
+      "actor_id": "usr_admin_yao",
+      "actor_role": "admin",
+      "actor_name": "YAO",
+      "action": "USER_LOGIN",
+      "description": "Login berhasil: YAO (yao.admin@system.internal)",
+      "created_at": "2026-08-25T13:38:14.084Z"
+    },
+    {
+      "id": "log_235e5387-2f88-43bf-8d89-c1f51cc52dc6",
+      "actor_id": "usr_admin_yao",
+      "actor_role": "admin",
+      "actor_name": "YAO",
+      "action": "SYSTEM_INIT",
+      "description": "Primary system admin initialized: YAO",
+      "created_at": "2026-08-25T13:37:51.499Z"
+    },
+    {
+      "id": "log_b3c8a85f-93e6-4247-aae5-ac271af087b6",
+      "actor_id": "usr_661f84d7-acb8-4827-b3aa-d8c0311b96bc",
+      "actor_role": "user",
+      "actor_name": "attacker",
+      "action": "USER_REGISTER",
+      "description": "User terdaftar: attacker (attacker@gmail.com)",
+      "metadata": {
+        "referrer_id": null
+      },
+      "created_at": "2026-08-25T13:29:35.286Z"
+    },
+    {
+      "id": "log_6ee398ff-4968-4802-9296-8d657c1e063e",
+      "actor_id": "usr_177555ad-7ebb-43b1-ae4d-98d110292660",
+      "actor_role": "user",
+      "actor_name": "testtester",
+      "action": "USER_REGISTER",
+      "description": "User terdaftar: testtester (testtester@gmail.com)",
+      "metadata": {
+        "referrer_id": null
+      },
+      "created_at": "2026-08-25T13:29:31.644Z"
+    },
+    {
+      "id": "log_ad328eb4-90ab-4baa-b2e2-a77c3b9e35b5",
+      "actor_id": "usr_admin_ea189c8d",
+      "actor_role": "system",
+      "actor_name": "System Seed",
+      "action": "SYSTEM_INIT",
+      "description": "Dedicated system admin seeded: superadmin (superadmin@yaos.internal)",
+      "created_at": "2026-08-25T13:29:25.236Z"
+    },
+    {
+      "id": "log_8fdf71f6-2287-47db-a6dd-0462c03b39aa",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "WITHDRAWAL_APPROVE",
+      "description": "Menyetujui WD Rp50.000 (DANA 081234567890 (a.n Worker Master)) untuk user worker_yao_master",
+      "metadata": {
+        "withdrawal_id": "wd_345179f2-43bb-4f22-ad60-0544cbcf89bb",
+        "gross": 50000,
+        "net": 42500
+      },
+      "created_at": "2026-08-25T13:13:40.492Z"
+    },
+    {
+      "id": "log_ee504f6c-520f-4d52-9927-e7db6f30a32d",
+      "actor_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "actor_role": "user",
+      "actor_name": "worker_yao_master",
+      "action": "WITHDRAWAL_SUBMIT",
+      "description": "Mengajukan penarikan dana Rp50.000 via DANA (Net: Rp42.500)",
+      "metadata": {
+        "withdrawal_id": "wd_345179f2-43bb-4f22-ad60-0544cbcf89bb",
+        "gross": 50000,
+        "feeAmount": 7500,
+        "netAmount": 42500,
+        "method": "DANA",
+        "account": "081234567890 (a.n Worker Master)"
+      },
+      "created_at": "2026-08-25T13:13:40.483Z"
+    },
+    {
+      "id": "log_fe6e8f4d-8152-4138-af1f-17b324ca0398",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "BALANCE_ADJUST",
+      "description": "Penyesuaian saldo user worker_yao_master sebesar +50.000. Alasan: Testing min WD bonus",
+      "metadata": {
+        "target_user_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+        "amount": 50000,
+        "balance_after": 62900
+      },
+      "created_at": "2026-08-25T13:13:40.477Z"
+    },
+    {
+      "id": "log_22e5ffd5-c57e-4cc7-863f-5c9fbb3813db",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "DEPOSIT_APPROVE",
+      "description": "Menyetujui setoran master3.yao@gmail.com untuk user worker_yao_master (+Rp4.300)",
+      "metadata": {
+        "deposit_id": "dep_e51fcb79-2c88-4233-91bb-5ddf07d485e6",
+        "gmail": "master3.yao@gmail.com",
+        "amount": 4300
+      },
+      "created_at": "2026-08-25T13:13:40.467Z"
+    },
+    {
+      "id": "log_148ff40e-a44b-49fe-8385-8d575a5ee0ba",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "DEPOSIT_APPROVE",
+      "description": "Menyetujui setoran master2.yao@gmail.com untuk user worker_yao_master (+Rp4.300)",
+      "metadata": {
+        "deposit_id": "dep_af774460-fcd0-4c0b-9be6-2db6ac22a633",
+        "gmail": "master2.yao@gmail.com",
+        "amount": 4300
+      },
+      "created_at": "2026-08-25T13:13:40.460Z"
+    },
+    {
+      "id": "log_b85c1ff8-0a6e-45ba-baff-3d4cd4873f12",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "DEPOSIT_APPROVE",
+      "description": "Menyetujui setoran master1.yao@gmail.com untuk user worker_yao_master (+Rp4.300)",
+      "metadata": {
+        "deposit_id": "dep_517183ac-440d-4aa7-9e5b-5c24fe0eb6a1",
+        "gmail": "master1.yao@gmail.com",
+        "amount": 4300
+      },
+      "created_at": "2026-08-25T13:13:40.454Z"
+    },
+    {
+      "id": "log_d515e381-cba1-43ca-bc66-9a95365b326a",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "USER_LOGIN",
+      "description": "Login berhasil: Admin YAO (admin@yaosgmail.com)",
+      "created_at": "2026-08-25T13:13:40.447Z"
+    },
+    {
+      "id": "log_6b1890cf-4e58-4722-8032-e5e31cf66db7",
+      "actor_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "actor_role": "user",
+      "actor_name": "worker_yao_master",
+      "action": "DEPOSIT_SUBMIT",
+      "description": "Menyetor 3 akun Gmail (Rate: Rp4.300)",
+      "metadata": {
+        "count": 3,
+        "rate": 4300,
+        "total_estimated": 12900
+      },
+      "created_at": "2026-08-25T13:13:40.348Z"
+    },
+    {
+      "id": "log_2b66915a-7905-4bf8-b0ce-e855f3195b82",
+      "actor_id": "usr_07e9380b-7b3a-4dcd-a2c4-4101b399f128",
+      "actor_role": "user",
+      "actor_name": "worker_yao_master",
+      "action": "USER_REGISTER",
+      "description": "User terdaftar: worker_yao_master (worker_yao_master@example.com)",
+      "metadata": {
+        "referrer_id": null
+      },
+      "created_at": "2026-08-25T13:13:40.333Z"
+    },
+    {
+      "id": "log_c47d2db5-23c7-4c54-be6c-1d6bff6076c2",
+      "actor_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "actor_role": "user",
+      "actor_name": "worker_yao_4",
+      "action": "WITHDRAWAL_SUBMIT",
+      "description": "Mengajukan penarikan dana Rp50.000 via DANA (Net: Rp42.500)",
+      "metadata": {
+        "withdrawal_id": "wd_d89727d3-4a61-4f4b-96b2-165c6e75a0e9",
+        "gross": 50000,
+        "feeAmount": 7500,
+        "netAmount": 42500,
+        "method": "DANA",
+        "account": "081234567890 (a.n Worker)"
+      },
+      "created_at": "2026-08-25T13:13:32.224Z"
+    },
+    {
+      "id": "log_708b6661-c329-4a17-9406-8870f7a099a4",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "BALANCE_ADJUST",
+      "description": "Penyesuaian saldo user worker_yao_4 sebesar +50.000. Alasan: Testing min WD bonus",
+      "metadata": {
+        "target_user_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+        "amount": 50000,
+        "balance_after": 62900
+      },
+      "created_at": "2026-08-25T13:13:32.216Z"
+    },
+    {
+      "id": "log_5d119391-4824-42ad-a85c-3e5bf773b8a3",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "DEPOSIT_APPROVE",
+      "description": "Menyetujui setoran worker43.yao@gmail.com untuk user worker_yao_4 (+Rp4.300)",
+      "metadata": {
+        "deposit_id": "dep_835974ac-9536-4e92-a721-64bbbe720586",
+        "gmail": "worker43.yao@gmail.com",
+        "amount": 4300
+      },
+      "created_at": "2026-08-25T13:13:32.202Z"
+    },
+    {
+      "id": "log_1c7ed1c0-8eb7-46c3-945e-8fef7133037f",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "DEPOSIT_APPROVE",
+      "description": "Menyetujui setoran worker42.yao@gmail.com untuk user worker_yao_4 (+Rp4.300)",
+      "metadata": {
+        "deposit_id": "dep_490c2552-72c6-406e-a6e2-d1b15e1912d5",
+        "gmail": "worker42.yao@gmail.com",
+        "amount": 4300
+      },
+      "created_at": "2026-08-25T13:13:32.195Z"
+    },
+    {
+      "id": "log_f81d8766-4920-4c5a-ae78-c60721444b24",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "DEPOSIT_APPROVE",
+      "description": "Menyetujui setoran worker41.yao@gmail.com untuk user worker_yao_4 (+Rp4.300)",
+      "metadata": {
+        "deposit_id": "dep_43b77dc9-742e-4e31-b2cf-8763b2cc1fd4",
+        "gmail": "worker41.yao@gmail.com",
+        "amount": 4300
+      },
+      "created_at": "2026-08-25T13:13:32.190Z"
+    },
+    {
+      "id": "log_77656864-fe10-48f3-b121-96e66e29d2ff",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "USER_LOGIN",
+      "description": "Login berhasil: Admin YAO (admin@yaosgmail.com)",
+      "created_at": "2026-08-25T13:13:32.183Z"
+    },
+    {
+      "id": "log_2a6e7bfc-a009-4d7c-8235-c18cfec2a8e6",
+      "actor_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "actor_role": "user",
+      "actor_name": "worker_yao_4",
+      "action": "DEPOSIT_SUBMIT",
+      "description": "Menyetor 3 akun Gmail (Rate: Rp4.300)",
+      "metadata": {
+        "count": 3,
+        "rate": 4300,
+        "total_estimated": 12900
+      },
+      "created_at": "2026-08-25T13:13:32.086Z"
+    },
+    {
+      "id": "log_c3f1a184-8482-476c-bd6e-a846ba3dbdeb",
+      "actor_id": "usr_b237cd3f-caaf-4b8d-9f1d-8c9ccf30dc0e",
+      "actor_role": "user",
+      "actor_name": "worker_yao_4",
+      "action": "USER_REGISTER",
+      "description": "User terdaftar: worker_yao_4 (worker_yao_4@example.com)",
+      "metadata": {
+        "referrer_id": null
+      },
+      "created_at": "2026-08-25T13:13:32.048Z"
+    },
+    {
+      "id": "log_7294c158-98b7-4fb7-9c98-1d10277be42f",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "DEPOSIT_APPROVE",
+      "description": "Menyetujui setoran worker33.yao@gmail.com untuk user worker_yao_3 (+Rp4.300)",
+      "metadata": {
+        "deposit_id": "dep_aeaa7770-60a5-48fb-8580-21406aa5e1f5",
+        "gmail": "worker33.yao@gmail.com",
+        "amount": 4300
+      },
+      "created_at": "2026-08-25T13:13:03.766Z"
+    },
+    {
+      "id": "log_2dd14c85-0fd1-4099-9914-dd6ba4533919",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "DEPOSIT_APPROVE",
+      "description": "Menyetujui setoran worker32.yao@gmail.com untuk user worker_yao_3 (+Rp4.300)",
+      "metadata": {
+        "deposit_id": "dep_432f0252-b186-40f2-9767-c64a83ccd467",
+        "gmail": "worker32.yao@gmail.com",
+        "amount": 4300
+      },
+      "created_at": "2026-08-25T13:13:03.760Z"
+    },
+    {
+      "id": "log_04b4c6f3-5c98-4c5a-ab19-0958058ba955",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "DEPOSIT_APPROVE",
+      "description": "Menyetujui setoran worker31.yao@gmail.com untuk user worker_yao_3 (+Rp4.300)",
+      "metadata": {
+        "deposit_id": "dep_654d767c-d305-468a-a5ec-4f30eba96efd",
+        "gmail": "worker31.yao@gmail.com",
+        "amount": 4300
+      },
+      "created_at": "2026-08-25T13:13:03.753Z"
+    },
+    {
+      "id": "log_eef86fd3-8bd0-4648-9f63-11bb08085b97",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "USER_LOGIN",
+      "description": "Login berhasil: Admin YAO (admin@yaosgmail.com)",
+      "created_at": "2026-08-25T13:13:03.744Z"
+    },
+    {
+      "id": "log_bdf09863-3928-4863-804a-01f96024dad5",
+      "actor_id": "usr_f63d11df-0b26-4cec-b434-186b77223054",
+      "actor_role": "user",
+      "actor_name": "worker_yao_3",
+      "action": "DEPOSIT_SUBMIT",
+      "description": "Menyetor 3 akun Gmail (Rate: Rp4.300)",
+      "metadata": {
+        "count": 3,
+        "rate": 4300,
+        "total_estimated": 12900
+      },
+      "created_at": "2026-08-25T13:13:03.639Z"
+    },
+    {
+      "id": "log_8a7e6c99-7c08-48d4-bdc4-451c7f8ef7e0",
+      "actor_id": "usr_f63d11df-0b26-4cec-b434-186b77223054",
+      "actor_role": "user",
+      "actor_name": "worker_yao_3",
+      "action": "USER_REGISTER",
+      "description": "User terdaftar: worker_yao_3 (worker_yao_3@example.com)",
+      "metadata": {
+        "referrer_id": null
+      },
+      "created_at": "2026-08-25T13:13:03.601Z"
+    },
+    {
+      "id": "log_14b36fbf-d4d9-4fcd-aa79-fc57e742e41c",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "USER_LOGIN",
+      "description": "Login berhasil: Admin YAO (admin@yaosgmail.com)",
+      "created_at": "2026-08-25T13:12:37.264Z"
+    },
+    {
+      "id": "log_6857a6a6-0b5d-4a6f-99f2-09125ab5ec6a",
+      "actor_id": "usr_2da07420-7db3-4d3c-96c2-14ca84d057d0",
+      "actor_role": "user",
+      "actor_name": "worker_yao_2",
+      "action": "DEPOSIT_SUBMIT",
+      "description": "Menyetor 3 akun Gmail (Rate: Rp4.300)",
+      "metadata": {
+        "count": 3,
+        "rate": 4300,
+        "total_estimated": 12900
+      },
+      "created_at": "2026-08-25T13:12:37.158Z"
+    },
+    {
+      "id": "log_3542b7a1-a311-4baa-baf6-ddd3e4f1a4ec",
+      "actor_id": "usr_2da07420-7db3-4d3c-96c2-14ca84d057d0",
+      "actor_role": "user",
+      "actor_name": "worker_yao_2",
+      "action": "USER_REGISTER",
+      "description": "User terdaftar: worker_yao_2 (worker_yao_2@example.com)",
+      "metadata": {
+        "referrer_id": null
+      },
+      "created_at": "2026-08-25T13:12:37.122Z"
+    },
+    {
+      "id": "log_2c655912-396b-458a-adf7-d3dcefca4408",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "admin",
+      "actor_name": "Admin YAO",
+      "action": "USER_LOGIN",
+      "description": "Login berhasil: Admin YAO (admin@yaosgmail.com)",
+      "created_at": "2026-08-25T13:12:29.313Z"
+    },
+    {
+      "id": "log_cc702ade-198d-4275-a4c9-9f789c7d9fc2",
+      "actor_id": "usr_08182a2f-d3fe-400d-80e7-d87c3ea2eb8a",
+      "actor_role": "user",
+      "actor_name": "worker_yao",
+      "action": "USER_REGISTER",
+      "description": "User terdaftar: worker_yao (worker_yao@example.com)",
+      "metadata": {
+        "referrer_id": null
+      },
+      "created_at": "2026-08-25T13:12:29.183Z"
+    },
+    {
+      "id": "log_930e7cb5-2adb-48eb-addb-30ab5f32bc9d",
+      "actor_id": "usr_admin_b0623dc2",
+      "actor_role": "system",
+      "actor_name": "System Seed",
+      "action": "SYSTEM_INIT",
+      "description": "Admin account seeded with email: admin@yaosgmail.com",
+      "created_at": "2026-08-25T13:06:43.770Z"
+    }
+  ]
+}
